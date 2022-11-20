@@ -1,0 +1,178 @@
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, "Times New Roman", Times, serif;
+}
+
+body {
+  min-width: 1230px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 25px 15px;
+  width: 1230px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  min-width: 130px;
+  max-width: 320px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color:#fed428;
+  cursor: pointer;
+}
+
+/* Header */
+
+.header {
+  padding-bottom: 40px;
+  color: #feffff;
+  background-image: radial-gradient(
+    circle at -14.09% 79.88%,
+    #00ffff 0,
+    #00f0ff 25%,
+    #10b7f8 50%,
+    #2f82b1 75%,
+    #2d5573 100%
+  );
+}
+
+.header__logo {
+  display: block;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header__content_left {
+  max-width: 39%;
+}
+
+.header__content_title {
+  padding: 50px 0 20px;
+  line-height: 1.5;
+}
+
+.bigTex {
+  font-size: 1.5em;
+} 
+
+.header__contetnt_description {
+  padding-bottom: 40px;
+  max-width: 94%;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+/* Main */
+/* section what */
+.what {
+  padding: 50px 0 ;
+}
+
+.what__title {
+  margin-bottom: 30px;
+  padding: 15px;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.what__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.what__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 30%;
+  margin-bottom: 15px;
+  padding: 20px 0 40px;
+}
+
+.what__item:not(:nth-child(3n)) {
+  margin-right: 15px;
+}
+
+.what__item_img {
+  padding-bottom: 30px;
+}
+
+.what__item_subT {
+  padding-bottom: 15px;
+  font-size: 1.3em
+}
+
+.what__item_descr {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* section form */
+.form {
+  padding: 50px 0 ;
+  background-color: #ebf2f8;
+}
+
+.what__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 320px;
+}
+
+.what__form_input {
+  margin-bottom: 15px;
+  padding: 7px 12px;
+  min-width: 320px;
+  font-size: 1.2em;
+  text-align: left;
+  color: black;
+}
+
+.what__form_input::placeholder {
+  font-size: 0.8em;
+}
+
+.form__btn {
+  border: none;
+  min-width: 320px;
+}
+
+/* footer */
+.footer {
+  padding: 30px 0;
+  background-color: #174d7b;
+}
+
+.footer__copyrights {
+  text-align: center;
+  color: white;
+}
